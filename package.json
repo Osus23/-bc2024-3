@@ -1,0 +1,11 @@
+{
+    "name": "bc2024-3",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "dependencies": {
+        "commander": "^9.5.0"
+    }
+}
