@@ -1,7 +1,7 @@
 const https = require('https');
 const fs = require('fs');
 
-const url = 'https://bank.gov.ua/NBUStatService/v1/statdirectory/exchange?json'; // заміни на потрібний URL
+const url = 'https://bank.gov.ua/NBUStatService/v1/statdirectory/basindbank?date=20160101&period=m&json'; // заміни на потрібний URL
 
 https.get(url, (resp) => {
     let data = '';
